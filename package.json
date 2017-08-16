@@ -1,0 +1,21 @@
+{
+  "name": "FilterByDate",
+  "description": "Allow you to filter object depending on their date",
+  "version": "1.10.0",
+  "main": "cwFilterByDate.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nevakee716/FilterByDate"
+  },
+  "author": "Mathias PFAUWADEL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nevakee716/FilterByDate/issues"
+  },
+  "homepage": "",
+  "wiki": "https://github.com/nevakee716/FilterByDate/wiki",
+  "evolve-version": "4.0 - 4.1"
+}

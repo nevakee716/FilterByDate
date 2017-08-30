@@ -12,7 +12,7 @@
             cwApi.extend(this, cwApi.cwLayouts[this.replaceLayout], options, viewSchema);
             cwApi.registerLayoutForJSActions(this);
             this.viewSchema = viewSchema; 
-            this.dateScriptname = options.CustomOptions['dateScriptname'];
+            this.dateScriptname = options.CustomOptions['dateScriptname'].toLowerCase();
             this.CreateOtherOptions(this.options.CustomOptions['other-options']);
         } else {
             error = 'Cannot find replace-layout';
